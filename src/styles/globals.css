@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --grey-100: #151513;
+  --grey-200: #2D2A26;
+  --grey-300: #4F4F4F;
+  --grey-600: #ccc;
+  --grey-900: #F6F6F6;
+  --blue-500: #754DFD;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, input, textarea, select, button { 
+  font: 400 1rem 'Poppins', sans-serif; 
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
