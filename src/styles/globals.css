@@ -2,11 +2,8 @@
 
 :root {
   --white: #fff;
-  --black: #000;
   --grey-100: #111218;
   --grey-300: #222430;
-  --grey-500: #888DAA;
-  
   --grey-900: #EBEBEB;
   --blue-500: #754DFD;
 }
@@ -19,7 +16,7 @@
 
 body {
   background-color: var(--grey-100);
-  color: #fff;
+  color: var(--white);
 }
 
 body, input, textarea, select, button { 
