@@ -1,0 +1,29 @@
+.card {
+  background-color: var(--grey-300);
+  padding: 20px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  transition: .1s linear border-color;
+  
+  & + .card {
+    margin-top: 40px;
+  }
+
+  &:hover {
+    border-color: var(--blue-500);
+    cursor: pointer;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    color: var(--grey-900);
+    margin: 10px 0;
+  }
+
+  small {
+    color: var(--grey-500);
+  }
+}
